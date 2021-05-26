@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Squada One', cursive;
+}
+
+#principal {
+    background-image:url('./assets/PRINCIPAL.png');
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+#principal, .area-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.area-login {
+    width: 600px;
+    height: 800px;
+    box-shadow: 4px 4px 50px #000000;
+    background: linear-gradient(#3f8844, #379a82, #e7daac);
+    opacity: 0.8;
+   
+}
+
+.area-login form {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.area-login label {
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.area-login input {
+    padding:10px;
+}
+
+.button {
+    font-size: 20px;
+    color: #e7daac;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #000000;
+    margin-top: 100px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 200px;
+    height: 50px;   
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #379a82;
+    font-size: 20px;
+    background-color: #e7daac;
+}
